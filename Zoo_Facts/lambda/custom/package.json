@@ -1,8 +1,32 @@
 {
-  "name": "alexa-skill-kit-sdk-factskill",
+  "name": "zoofacts",
   "version": "1.0.0",
+  "description": "Amazon Alexa / Echo Show Fact Skill Template with Contentful CMS integration",
+  "main": "index.js",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truthlabs/ZooFacts.git"
+  },
+  "keywords": [
+    "Amazon",
+    "Alexa",
+    "Echo",
+    "Show",
+    "Skill",
+    "Contentful",
+    "CMS"
+  ],
+  "author": "Truth Labs <hello@truthlabs.com> (https://github.com/truthlabs/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/truthlabs/ZooFacts/issues"
+  },
+  "homepage": "https://github.com/truthlabs/ZooFacts#readme",
   "dependencies": {
     "alexa-sdk": "^1.0.10"
+  },
+  "scripts": {
+    "test": "ask simulate -l en-GB -t \"alexa, tell me a zoo fact\""
   }
 }
