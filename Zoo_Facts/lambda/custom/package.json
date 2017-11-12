@@ -27,6 +27,6 @@
     "alexa-sdk": "^1.0.10"
   },
   "scripts": {
-    "test": "ask simulate -l en-GB -t \"alexa, tell me a zoo fact\""
+    "test": "(cd .. && cd .. && ask simulate -l en-GB -t \"alexa, ask Zoo Facts for a fact.\")"
   }
 }
