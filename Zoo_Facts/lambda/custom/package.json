@@ -24,9 +24,12 @@
   },
   "homepage": "https://github.com/truthlabs/ZooFacts#readme",
   "dependencies": {
-    "alexa-sdk": "^1.0.10"
+    "alexa-sdk": "^1.0.10",
+    "contentful": "^5.0.3"
   },
   "scripts": {
+    "start": "node index.js",
+    "deploy": "(cd .. && cd .. && ask deploy)",
     "test": "(cd .. && cd .. && ask simulate -l en-GB -t \"alexa, ask Zoo Facts for a fact.\")"
   }
 }
