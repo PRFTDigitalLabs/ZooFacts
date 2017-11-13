@@ -34,3 +34,16 @@ p {
   width: 90%;
   margin:0;
 }
+
+@media screen and (max-width: 768px) {
+  .fact-intro {
+    font-size: 25pt;
+    margin-left: 10px;
+  }
+
+  .fact-body {
+    top: 90px;
+    font-size: 12pt;
+    padding: 10px;
+  }
+}
