@@ -1,0 +1,36 @@
+h1, h2, h3 {
+  font-family: 'Fredoka One', cursive;
+}
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+.fact {
+   position: relative;
+   width: 100%;
+   color: white;
+}
+
+.fact-image {
+  width:100%;
+}
+
+.fact-intro, .fact-body {
+   position: absolute;
+   left: 0;
+   width: 100%;
+}
+
+.fact-intro {
+  top:0px;
+  font-size: 50pt;
+  padding: 20px;
+}
+
+.fact-body {
+  top: 170px;
+  font-size: 25pt;
+  padding: 20px;
+  width: 90%;
+  margin:0;
+}
