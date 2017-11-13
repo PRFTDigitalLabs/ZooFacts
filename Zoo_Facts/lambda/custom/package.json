@@ -1,7 +1,7 @@
 {
   "name": "zoofacts",
   "version": "1.0.0",
-  "description": "Amazon Alexa / Echo Show Fact Skill Template with Contentful CMS integration",
+  "description": "An Amazon Alexa / Echo Show Fact Skill showcasing Contentful CMS integration",
   "main": "index.js",
   "private": true,
   "repository": {
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/truthlabs/ZooFacts/issues"
   },
-  "homepage": "https://github.com/truthlabs/ZooFacts#readme",
+  "homepage": "http://alexademo.truthlabs.com",
   "dependencies": {
     "alexa-sdk": "^1.0.19",
     "contentful": "^5.0.3"
