@@ -18,13 +18,13 @@ p {
 .fact-intro, .fact-body {
    position: absolute;
    left: 0;
-   width: 100%;
+   width:auto;
 }
 
 .fact-intro {
   top:0px;
   font-size: 50pt;
-  padding: 20px;
+  margin-left: 20px;
 }
 
 .fact-body {
