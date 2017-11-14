@@ -30,7 +30,7 @@ if (DEV) {
 exports.handler = function(event, context) {
   const alexa = Alexa.handler(event, context);
   alexa.appId = APP_ID;
-  client.getEntries({'sys.id': process.env.ROOT_ENTRY, 'include': 2}).then((response) => {
+  client.getEntries({'sys.id': process.env.ROOT_ENTRY}).then((response) => {
     factsData = response.items[0].fields;
     alexa.registerHandlers(handlers);
     alexa.execute();
