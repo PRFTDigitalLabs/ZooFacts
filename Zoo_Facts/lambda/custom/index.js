@@ -58,6 +58,7 @@ const handlers = {
     if (supportsDisplay.call(this) || isSimulator.call(this)) {
       const builder = new Alexa.templateBuilders.BodyTemplate1Builder();
 
+      //https://www.contentful.com/developers/docs/references/images-api/#/reference/resizing-&-cropping/specify-width-&-height
       let template = builder.setTitle(factsData.headline)
         .setBackgroundImage(makeImage("https:" + randomFact.backgroundImage.fields.file.url + "?w=1024&h=600"))
         .setTextContent(makePlainText(randomFact.textContent))
