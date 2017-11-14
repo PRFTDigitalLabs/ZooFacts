@@ -30,6 +30,6 @@
   "scripts": {
     "start": "node index.js",
     "deploy": "(cd .. && cd .. && ask deploy)",
-    "test": "(cd .. && cd .. && ask simulate -l en-GB -t \"alexa, ask Zoo Facts for a fact.\")"
+    "test": "(cd .. && cd .. && ask simulate -l en-US -t \"alexa, ask Zoo Facts for a fact.\")"
   }
 }
