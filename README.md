@@ -35,3 +35,12 @@ This will walk you through the necessary steps of creating the various accounts 
 
 Once you've delpoyed your test skill, or if you've already gone through the tutorial process. There are a few features of this repository that make editing and deploying slightly more convenient through the [Alexa Skills Kit Command Line Interface](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html). Take a look [here](https://github.com/truthlabs/ZooFacts/tree/master/Zoo_Facts/lambda/custom). 
 
+<p align='center'>
+<a href="https://truthlabs.com"><IMG SRC="http://truthlabs.com/img/tl-logo-red.png"></a>
+</p>
+
+_Are you or your company looking for a development partner to build a VUI experience, Contentful-backed application, or other emerging technoloy experience?_
+
+_If you have a concept in mind but need some inspiration to bring it to life, [Truth Labs](https://truthlabs.com/contact) can assist with ideation, design thought, planning, prototyping, and production of your concept._
+
+_Find out more here: https://truthlabs.com and read more about what we're working on here: https://blog.truthlabs.com._
